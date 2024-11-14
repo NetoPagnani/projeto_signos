@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-image: url("/src/images/background.jpg");
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  top: 10rem;
+  background-color: #9c9999a9;
+  margin: 5rem auto;
+  width: 30rem;
+  height: 20rem;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 10px 5px 20px #ffffffc5;
+}
+
+.titulo {
+  font-family: 'Condiment', cursive;
+  font-size: 3rem;
+  position: relative;
+  top:1.3rem;
+}
+
+.signo-form {
+  position: relative;
+  top: .8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signo-form label,
+input {
+  margin: .5rem 0.5rem;
+  width: 12rem;
+  border: none;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  padding: 0.2rem;
+}
+
+button {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to top, #d8d9db 0%, #fff 80%, #fdfdfd 100%);
+  border-radius: 30px;
+  border: 1px solid #8f9092;
+  transition: all 0.2s ease;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #606060;
+  text-shadow: 0 1px #fff;
+}
+
+button:hover {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 3px 3px #cecfd1;
+}
+
+button:active {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+button:focus {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+.card_oculto{
+  display: none;
+}
+
+
+.resultado-signo{
+ 
+  margin: 3rem auto;
+  width: 50rem;
+  height: 35rem;
+  background-color: #8f909270;
+  border-radius: 2rem;
+}
+.resultado-signo h2{
+  padding: .5rem;
+  color: #fdfdfd;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Condiment',cursive;
+}
+
+.resultado-signo p{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.resultado-signo img{
+  margin: .5rem 12rem;
+  width: 25rem;
+  height: 15rem;
+}
+
+.resultado-signo button{
+margin: 1rem 20rem;
+}
+.resultado-signo button a{
+  text-decoration: none;
+}
+
+.resultado-signo-oculto{
+  display: none;
+}

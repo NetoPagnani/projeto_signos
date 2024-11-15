@@ -8,7 +8,7 @@ document
     const mes = dataNascimento.getMonth() + 1;
     const dia = dataNascimento.getDate();
 
-    fetch("signos.json")
+    fetch("../signos.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

@@ -25,7 +25,7 @@ document
           <h2> Seu Signo é: ${signo.nome}</h2>
           <p>${signo.descricao}</p>
           <img src="${signo.imagem}" alt="${signo.nome}">
-          <button><a href='../index.html'>Voltar</a></button>
+          <button><a href='./index.html'>Voltar</a></button>
           `;
           document.getElementById("container").className = "card_oculto";
           document.getElementById("resultado-signo").className =
